@@ -6,7 +6,7 @@
 @font-face { font-family: system-ui; font-style: normal; font-weight: 300; src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma"); } /* Now, let's apply it on an element */ body { font-family: "system-ui"; }
 
 :root{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 * {
@@ -133,10 +133,10 @@ input{
 }
 
 form{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 1rem;
     font-size: 0.8rem;
-    display: grid;
     box-sizing: border-box;
   }
 
