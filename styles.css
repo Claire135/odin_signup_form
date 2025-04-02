@@ -67,13 +67,9 @@ body {
     font-weight: bold;
 }
 
-.bottom-grey-text-container{
-    flex:1
-}
-
 .form-container{
     display: flex;
-    min-height: 33vh;
+    min-height: auto;
     flex: 1;
     background-color: white;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
