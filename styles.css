@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(./assets/Norse-Bold.otf) format('opentype');
+}
+
+@font-face { font-family: system-ui; font-style: normal; font-weight: 300; src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma"); } /* Now, let's apply it on an element */ body { font-family: "system-ui"; }
+
+:root{
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    display: flex 1,1,auto;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    background-image: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 67vw
+}
+
+.logo-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 33, 37, 0.5);
+    position: relative;
+    top: 20%;
+}
+
+.bottom-grey-text-container,
+.top-grey-text-container,
+.form-container{
+    display: flex;
+    padding: 20px 50px;
+    align-items: flex-start;
+}
+
+.bottom-grey-text-container,
+.top-grey-text-container{
+    background-color: rgb(249, 250, 251);
+    height: 35vh;
+    flex-direction: column;
+}
+
+.top-grey-text-container{
+    justify-content:flex-end;
+    font-weight: bold;
+}
+
+
+.form-container{
+    display: flex;
+    height: 30vh;
+}
+
+img{
+    width: min(70px, 30%);
+    height: auto;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: 'Norse Bold', sans-serif;
+    color: white;
+    margin:0px;
+    padding: 10px;
+}
+
+p{
+    line-height: 1.5;
+    width: clamp(45ch, 50%, 75ch);
+    padding: 0px;
+    margin: 0px;
+}

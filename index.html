@@ -3,35 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>This is not a real online service! You know you need something like this in your like to help you realize your deepest dreams. Sign up now to get started.</p>
-    <p>You know you want to.</p>
+    <div class="left-wrapper">
+        <div class="logo-container">
+            <img src="./assets/odin-lined.png" alt="Odin Logo">
+            <h1>Odin</h1>
+        </div>
+    </div>
+    <div class="right-wrapper">
+        <div class="top-grey-text-container">
+            <p>This is not a real online service! You know you need something like this in your like to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p>You <i>know</i> you want to.</p>
+        </div>
+        <div class="form-container">
+            <form>
+                <h2>Let's do this!</h2>
+                <label for="first_name">FIRST NAME: </label>
+                <input type="text" id="first_name" name="user_first_name"/>
 
-    <form>
-        <h1>Let's do this!</h1>
-        <label for="first_name">First Name: </label>
-        <input type="text" id="first_name" name="user_first_name"/>
+                <label for="last_name">LAST NAME: </label>
+                <input type="text" id="last_name" name="user_last_name"/>
 
-        <label for="last_name">Last Name: </label>
-        <input type="text" id="last_name" name="user_last_name"/>
-
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="uuser_email"/>
+                <label for="email">EMAIL: </label>
+                <input type="email" id="email" name="uuser_email"/>
          
-        <label for="phone">Phone Number: </label>
-        <input type="tel" id="phone" name="user_phone"/>
+                <label for="phone">PHONE NUMBER: </label>
+                <input type="tel" id="phone" name="user_phone"/>
 
-        <label for="password">Password: </label>
-        <input type="password" id="password" name="user_password"/>
+                <label for="password">PASSWORD: </label>
+                <input type="password" id="password" name="user_password"/>
 
-        <label for="confirm_password">Confirm Password: </label>
-        <input type="password" id="confirm_password" name="user_confirm_password"/>
+                <label for="confirm_password">CONFIRM PASSWORD: </label>
+                <input type="password" id="confirm_password" name="user_confirm_password"/>
 
-        <button type="submit">Create Account</button>
+                <button type="submit">Create Account</button>
 
-    </form>
-    <p>Already have an account?</p><a href="./pages/login.html">Login</a>
+            </form>
+        </div>
+        <div class="bottom-grey-text-container">
+            <p>Already have an account? <span><a href="./pages/login.html">Login</a></span></p>
+        </div>
+    </div>
 </body>
 </html>
