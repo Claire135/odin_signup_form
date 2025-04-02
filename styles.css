@@ -24,7 +24,8 @@ body {
 .left-wrapper{
     display: flex;
     flex-direction: column;
-    width: 33vw;
+    flex: 1;
+    max-width: 500px;
     background-image: url(./assets/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-position: center;
@@ -34,7 +35,7 @@ body {
 .right-wrapper{
     display: flex;
     flex-direction: column;
-    width: 67vw
+    flex: 2;
 }
 
 .logo-container{
@@ -67,7 +68,7 @@ body {
 }
 
 .bottom-grey-text-container{
-    height: auto;
+    height: 32vh;
 }
 
 .form-container{
