@@ -59,21 +59,22 @@ body {
 .top-grey-text-container{
     background-color: rgb(249, 250, 251);
     flex-direction: column;
+    flex:1;
 }
 
 .top-grey-text-container{
     justify-content:flex-end;
     font-weight: bold;
-    height: 35vh;
 }
 
 .bottom-grey-text-container{
-    height: 32vh;
+    flex:1
 }
 
 .form-container{
     display: flex;
-    height: 33vh;
+    min-height: 33vh;
+    flex: 2
     background-color: white;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
     position: relative;
